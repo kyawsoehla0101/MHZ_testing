@@ -1,0 +1,11 @@
+{% extends 'layout/master.html' %}
+{% block 'content' %}
+<div class="container mt-5">
+    <form action="" method="post" enctype="multipart/form-data">
+       {% csrf_token %}
+       <p><strong>{{ coffee.name }}</strong> ကို ဖျက်ရန် သေချာပါယင့်လား ?</p>
+       <button type="submit" class="btn btn-danger btn-sm">ဖျက်သည်</button>
+       <a type="submit" class="btn btn-secondary btn-sm" onclick="history.back()">နောက်သို့</a>
+    </form>
+ </div>
+{% endblock %}

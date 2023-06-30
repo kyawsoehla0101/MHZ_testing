@@ -1,0 +1,1 @@
+default_app_config = 'your_django_app.apps.YourAppConfig'
