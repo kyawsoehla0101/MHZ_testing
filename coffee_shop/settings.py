@@ -34,14 +34,9 @@ INSTALLED_APPS = [
     'crispy_bootstrap5',
 
     # algolia 
-    'algoliasearch_django'
 
 ]
 
-ALGOLIA = {
-    'APPLICATION_ID': 'undefined',
-    'API_KEY': 'YourWriteAPIKey'
-}
 
 
 MIDDLEWARE = [
